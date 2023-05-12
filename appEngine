@@ -1,0 +1,7 @@
+To deploy to google app engine
+gcloud config set project <project name> --account=<email>
+gcloud app create
+gcloud app deploy
+gcloud app deploy
+gcloud app browse
+gcloud app logs tail -s default
