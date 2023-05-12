@@ -1,0 +1,10 @@
+runtime: python39
+
+entrypoint: gunicorn -b :$PORT app:app
+
+instance_class: F1
+
+env_variables:
+  SECRET_KEY: '652052bed3c72a031e2768abc2bbca3839fb944269db87dd609de699c0f8e346'
+
+
